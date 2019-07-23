@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(197, 168, 235);
+}
+
+button {
+    cursor: pointer;
+    position: fixed;
+    left: 30%;
+    right: 25%;
+    top: 40%;
+
+    background-color: white;
+    border-color: black;
+    font-family: "Arial", sans-serif;
+    border-radius: 12px;
+
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color: rgb(35, 202, 35);;
+    color: black;
+}
