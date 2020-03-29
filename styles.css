@@ -2,12 +2,15 @@ body {
     background-color: rgb(197, 168, 235);
 }
 
+.buttonDiv {
+    display:flex;
+    justify-content:center;
+}
+
 button {
     cursor: pointer;
-    position: fixed;
-    left: 30%;
-    right: 25%;
-    top: 40%;
+    position: absolute;
+    top:50%;
 
     background-color: white;
     border-color: black;
